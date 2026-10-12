@@ -1,0 +1,108 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Lesson 17 Materials</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,700;800&display=swap" rel="stylesheet">
+<style>
+/* Layout: grid-paper notebook cover with the lesson target, then two groups of link cards (students, teacher). */
+:root{
+  --bg:#F2F6FB; --grid:#D6E3F1; --card:#FFFFFF; --ink:#13213B; --muted:#4F5F7A; --line:#B9C8DC;
+  --blue:#2447D6; --blue-soft:#E3E9FD; --orange:#C2410C; --onblue:#FFFFFF; --focus:#13213B;
+  --display:"Bricolage Grotesque","Trebuchet MS",system-ui,sans-serif;
+  --body:"Atkinson Hyperlegible","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0E1729; --grid:#1B2A45; --card:#16223A; --ink:#EAF0FB; --muted:#A5B3CC; --line:#33466A;
+  --blue:#8EA6FF; --blue-soft:#202F5C; --orange:#FF9457; --onblue:#0E1729; --focus:#EAF0FB; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0E1729; --grid:#1B2A45; --card:#16223A; --ink:#EAF0FB; --muted:#A5B3CC; --line:#33466A;
+  --blue:#8EA6FF; --blue-soft:#202F5C; --orange:#FF9457; --onblue:#0E1729; --focus:#EAF0FB; color-scheme:dark}
+*{box-sizing:border-box}
+body{background-color:var(--bg);
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:28px 28px;color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.5;
+  padding-inline:16px;padding-block:28px 56px;min-height:100vh}
+.wrap{max-width:900px;margin:0 auto;display:flex;flex-direction:column;gap:26px}
+h1,h2,h3{font-family:var(--display);line-height:1.1;margin:0;text-wrap:balance;letter-spacing:-.01em}
+p{margin:0}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.cover h1{font-size:clamp(2.1rem,6vw,3.4rem);font-weight:800;margin-top:6px}
+.cover h1 span{color:var(--orange)}
+.cover .lead{margin-top:12px;max-width:58ch}
+.target{background:var(--card);border:2px solid var(--ink);border-radius:14px;padding:18px 20px;box-shadow:5px 5px 0 var(--ink);display:flex;flex-direction:column;gap:8px}
+.chips{display:flex;gap:8px;flex-wrap:wrap}
+.chip{font-size:.85rem;font-weight:700;padding:3px 10px;border-radius:999px;background:var(--blue-soft)}
+section.group{display:flex;flex-direction:column;gap:14px}
+section.group h2{font-size:1.5rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:16px}
+.card{display:flex;flex-direction:column;gap:10px;background:var(--card);border:2px solid var(--ink);border-radius:12px;padding:16px 18px;min-width:0}
+.card h3{font-size:1.2rem}
+.card p{color:var(--muted);font-size:1rem}
+.card .tags{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:.78rem;font-weight:700;letter-spacing:.04em;padding:2px 8px;border-radius:999px;border:1.5px solid var(--line)}
+a.go{margin-top:auto;align-self:flex-start;display:inline-flex;align-items:center;min-height:46px;padding:8px 18px;border-radius:10px;border:2px solid var(--blue);background:var(--blue);color:var(--onblue);font-weight:700;text-decoration:none}
+a.go:hover{filter:brightness(1.1)}
+a.go.ghost{background:transparent;color:var(--blue)}
+.note{background:var(--card);border:2px dashed var(--line);border-radius:12px;padding:14px 18px;color:var(--muted);font-size:1rem}
+</style>
+
+<div class="wrap">
+  <header class="cover">
+    <span class="eyebrow">Grade 7 · Module 1 · Topic D</span>
+    <h1>Lesson 17 <span>Materials</span></h1>
+    <p class="lead">The Unit Rate as the Scale Factor. Everything for this lesson in one place.</p>
+  </header>
+
+  <div class="target">
+    <span class="eyebrow">Learning target</span>
+    <p>Students recognize that lengths in a scale drawing are proportional to the original, see the scale factor as the constant of proportionality, and make a scale drawing from a given scale factor.</p>
+    <div class="chips"><span class="chip">7.G.A.1</span><span class="chip">7.RP.A.2.b</span></div>
+  </div>
+
+  <section class="group" aria-labelledby="gs">
+    <h2 id="gs">For students</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Scale Factor Lab</h3>
+        <p>A game with six missions. Students decide if a drawing is bigger or smaller, find the scale factor, flip it, find missing lengths, and draw on graph paper.</p>
+        <div class="tags"><span class="tag">Practice</span><span class="tag">Hints</span><span class="tag">Read aloud</span></div>
+        <a class="go" href="https://claude.ai/artifact/3nVE2siKqqy5fZkJVqow3K" target="_blank" rel="noopener">Open the game</a>
+      </article>
+      <article class="card">
+        <h3>Scale Drawing Check</h3>
+        <p>Three questions on making a scale drawing. Students answer and show their thinking. The teacher sees who needs which next step.</p>
+        <div class="tags"><span class="tag">Check for understanding</span><span class="tag">Hints</span><span class="tag">Read aloud</span></div>
+        <a class="go" href="https://claude.ai/artifact/93KLxbpRcu3jEG5xDEKucp" target="_blank" rel="noopener">Open the check</a>
+      </article>
+      <article class="card">
+        <h3>Proportional Relationships Tutor</h3>
+        <p>Mid-module practice in English and Spanish with a hint ladder. Links to the game and the check are at the bottom.</p>
+        <div class="tags"><span class="tag">Module 1 practice</span><span class="tag">English and Spanish</span></div>
+        <a class="go" href="https://claude.ai/artifact/GWfZoXE86hKrjoUNdgetNz" target="_blank" rel="noopener">Open the tutor</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="group" aria-labelledby="gt">
+    <h2 id="gt">For the teacher</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Check slides</h3>
+        <p>The three check items, one per slide, for projecting.</p>
+        <div class="tags"><span class="tag">Slides</span></div>
+        <a class="go ghost" href="https://claude.ai/artifact/DwVmXAAARPLdHtMUQfLaKx" target="_blank" rel="noopener">Open the slides</a>
+      </article>
+      <article class="card">
+        <h3>Check teacher guide</h3>
+        <p>Each item with the correct answer, what every response shows, and the next step for each.</p>
+        <div class="tags"><span class="tag">Doc</span></div>
+        <a class="go ghost" href="https://claude.ai/artifact/KanxESsMTFNfpazW6LwmLp" target="_blank" rel="noopener">Open the guide</a>
+      </article>
+    </div>
+  </section>
+
+  <p class="note">Class results for the game, the check, and the tutor are in each page's own teacher view. Students can open a page only after you share it with them.</p>
+</div>
+
+</body></html>
